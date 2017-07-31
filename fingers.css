@@ -1,0 +1,63 @@
+html, body {
+    height:100%;
+}
+body {
+	margin:0;
+	padding:0;
+}
+#myFingers {
+	width:  49.75%;
+	height: 100%;
+	background-color: #e74c3c;
+	float: left;
+	border: 0.5% solid #ecf0f1;
+}
+#yourFingers {
+	width:49.75%;
+	height: 100%;
+	background-color: #3498db;
+	float: right;
+}
+#Leftbtn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ecf0f1;
+  font-size: 30px;
+  background: #3498db;
+  padding: 30px 50px 30px 50px;
+  text-decoration: none;
+  border: 5px solid #ecf0f1;
+  margin: 35% 5% 0 5%;
+}
+#Leftbtn:hover {
+	background-color: #e74c3c;
+	cursor: pointer;
+	font-style: italic;
+	color: #34495e;
+	border: 5px solid #34495e;
+}
+button:focus {
+	outline:0;
+}
+#Rightbtn {
+	-webkit-border-radius: 60;
+	-moz-border-radius: 60;
+	border-radius: 60px;
+	font-family: Arial;
+	color: #ecf0f1;
+	font-size: 30px;
+	background: #e74c3c;
+	padding: 30px 50px 30px 50px;
+	text-decoration: none;
+	border: 5px solid #ecf0f1;
+	margin: 35% 5% 0 5%;
+}
+#Rightbtn:hover {
+	background-color: #3498db;
+	cursor: pointer;
+	font-style: italic;
+	color: #34495e;
+	border: 5px solid #34495e;
+}
